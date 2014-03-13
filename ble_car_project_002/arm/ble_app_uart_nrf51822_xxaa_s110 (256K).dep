@@ -1,0 +1,272 @@
+Dependencies for Project 'ble_app_uart', Target 'nrf51822_xxaa_s110 (256K)': (DO NOT MODIFY !)
+F (.\..\..\..\..\..\..\Source\templates\arm\arm_startup_nrf51.s)(0x52B2C4AB)(--cpu Cortex-M0 --li --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Development\BLE\MDK\ARM\RV31\INC-I C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Development\BLE\MDK\ARM\Device\Nordic\nRF51822\Include--list .\_build\arm_startup_nrf51.lst --xref -o .\_build\arm_startup_nrf51.o --depend .\_build\arm_startup_nrf51.d)
+F (.\..\..\..\..\..\..\Source\templates\system_nrf51.c)(0x52B2C4AB)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\..\Include -I..\..\..\..\..\..\Include\app_common -I..\..\..\..\..\..\Include\ble -I..\..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\..\Include\s110 -I..\..\..\..\..\..\Include\sd_common -I..\..\..\..\..\..\Include\ext_sensors --c99-I C:\Development\BLE\MDK\ARM\RV31\INC-I C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Development\BLE\MDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DBOARD_PCA10001 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -o .\_build\system_nrf51.o --omf_browse .\_build\system_nrf51.crf --depend .\_build\system_nrf51.d)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdint.h)(0x52FE975E)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdbool.h)(0x52FE975E)
+I (..\..\..\..\..\..\Include\nrf.h)(0x52B2C4AC)
+I (..\..\..\..\..\..\Include\nrf51.h)(0x52B2C4AA)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512CE342)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BB1A44)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512CE342)
+I (..\..\..\..\..\..\Include\system_nrf51.h)(0x52B2C4AB)
+I (..\..\..\..\..\..\Include\nrf51_bitfields.h)(0x52B2C4AA)
+I (..\..\..\..\..\..\Include\nrf51_deprecated.h)(0x52B2C4AC)
+I (..\..\..\..\..\..\Include\compiler_abstraction.h)(0x52B2C4AC)
+F (.\..\main.c)(0x5321C5F0)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\..\Include -I..\..\..\..\..\..\Include\app_common -I..\..\..\..\..\..\Include\ble -I..\..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\..\Include\s110 -I..\..\..\..\..\..\Include\sd_common -I..\..\..\..\..\..\Include\ext_sensors --c99-I C:\Development\BLE\MDK\ARM\RV31\INC-I C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Development\BLE\MDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DBOARD_PCA10001 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -o .\_build\main.o --omf_browse .\_build\main.crf --depend .\_build\main.d)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdint.h)(0x52FE975E)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\string.h)(0x52FE975E)
+I (..\..\..\..\..\..\Include\nordic_common.h)(0x52B47884)
+I (..\..\..\..\..\..\Include\nrf.h)(0x52B2C4AC)
+I (..\..\..\..\..\..\Include\nrf51.h)(0x52B2C4AA)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512CE342)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BB1A44)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512CE342)
+I (..\..\..\..\..\..\Include\system_nrf51.h)(0x52B2C4AB)
+I (..\..\..\..\..\..\Include\nrf51_bitfields.h)(0x52B2C4AA)
+I (..\..\..\..\..\..\Include\nrf51_deprecated.h)(0x52B2C4AC)
+I (..\..\..\..\..\..\Include\compiler_abstraction.h)(0x52B2C4AC)
+I (..\..\..\..\..\..\Include\s110\ble_hci.h)(0x52809822)
+I (..\..\..\..\..\..\Include\ble\ble_advdata.h)(0x52B47882)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdbool.h)(0x52FE975E)
+I (..\..\..\..\..\..\Include\s110\ble.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_ranges.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_types.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_gap.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\nrf_svc.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_l2cap.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_err.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\nrf_error.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_gatt.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_gattc.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_gatts.h)(0x52809822)
+I (..\..\..\..\..\..\Include\app_common\app_util.h)(0x52B4787E)
+I (..\..\..\..\..\..\Include\app_common\app_error.h)(0x52B4787E)
+I (..\..\..\..\..\..\Include\ble\ble_conn_params.h)(0x52B47882)
+I (..\..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x52B47880)
+I (..\..\..\..\..\..\Include\sd_common\softdevice_handler.h)(0x52B47884)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdlib.h)(0x52FE975E)
+I (..\..\..\..\..\..\Include\s110\nrf_sdm.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\nrf_soc.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\nrf_error_soc.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\nrf_error_sdm.h)(0x52809822)
+I (..\..\..\..\..\..\Include\app_common\app_scheduler.h)(0x52B4787E)
+I (..\..\..\..\..\..\Include\sd_common\ble_stack_handler_types.h)(0x52B47884)
+I (..\..\..\..\..\..\Include\sd_common\ant_stack_handler_types.h)(0x52B47884)
+I (..\..\..\..\..\..\Include\app_common\app_timer.h)(0x52B4787E)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdio.h)(0x52FE975E)
+I (..\..\..\..\..\..\Include\app_common\app_button.h)(0x52B4787E)
+I (..\..\..\..\..\..\Include\nrf_gpio.h)(0x52B47880)
+I (..\ble_nus.h)(0x52B478E9)
+I (..\..\..\..\..\..\Include\simple_uart.h)(0x52B47882)
+I (..\..\..\..\..\..\Include\boards.h)(0x52B47880)
+I (..\..\..\..\..\..\Include\boards/pca10001.h)(0x52B47882)
+I (..\..\..\..\..\..\Include\ble\ble_error_log.h)(0x52B47880)
+I (..\..\..\..\..\..\Include\ble\ble_flash.h)(0x52B47880)
+I (..\..\..\..\..\..\Include\ble\ble_debug_assert_handler.h)(0x52B47882)
+I (..\..\..\..\..\..\Include\ext_sensors\nrf6350.h)(0x52B47882)
+F (..\..\..\..\..\..\Source\ble\ble_services\ble_srv_common.c)(0x52B4786A)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\..\Include -I..\..\..\..\..\..\Include\app_common -I..\..\..\..\..\..\Include\ble -I..\..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\..\Include\s110 -I..\..\..\..\..\..\Include\sd_common -I..\..\..\..\..\..\Include\ext_sensors --c99-I C:\Development\BLE\MDK\ARM\RV31\INC-I C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Development\BLE\MDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DBOARD_PCA10001 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -o .\_build\ble_srv_common.o --omf_browse .\_build\ble_srv_common.crf --depend .\_build\ble_srv_common.d)
+I (..\..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x52B47880)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdint.h)(0x52FE975E)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdbool.h)(0x52FE975E)
+I (..\..\..\..\..\..\Include\s110\ble_types.h)(0x52809822)
+I (..\..\..\..\..\..\Include\app_common\app_util.h)(0x52B4787E)
+I (..\..\..\..\..\..\Include\compiler_abstraction.h)(0x52B2C4AC)
+I (..\..\..\..\..\..\Include\nrf51.h)(0x52B2C4AA)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512CE342)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BB1A44)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512CE342)
+I (..\..\..\..\..\..\Include\system_nrf51.h)(0x52B2C4AB)
+I (..\..\..\..\..\..\Include\app_common\app_error.h)(0x52B4787E)
+I (..\..\..\..\..\..\Include\s110\nrf_error.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_gap.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_ranges.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\nrf_svc.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_gatt.h)(0x52809822)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\string.h)(0x52FE975E)
+I (..\..\..\..\..\..\Include\nordic_common.h)(0x52B47884)
+F (..\ble_nus.c)(0x52B478E9)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\..\Include -I..\..\..\..\..\..\Include\app_common -I..\..\..\..\..\..\Include\ble -I..\..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\..\Include\s110 -I..\..\..\..\..\..\Include\sd_common -I..\..\..\..\..\..\Include\ext_sensors --c99-I C:\Development\BLE\MDK\ARM\RV31\INC-I C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Development\BLE\MDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DBOARD_PCA10001 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -o .\_build\ble_nus.o --omf_browse .\_build\ble_nus.crf --depend .\_build\ble_nus.d)
+I (..\ble_nus.h)(0x52B478E9)
+I (..\..\..\..\..\..\Include\s110\ble.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_ranges.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_types.h)(0x52809822)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdint.h)(0x52FE975E)
+I (..\..\..\..\..\..\Include\s110\ble_gap.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\nrf_svc.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_l2cap.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_err.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\nrf_error.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_gatt.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_gattc.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_gatts.h)(0x52809822)
+I (..\..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x52B47880)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdbool.h)(0x52FE975E)
+I (..\..\..\..\..\..\Include\app_common\app_util.h)(0x52B4787E)
+I (..\..\..\..\..\..\Include\compiler_abstraction.h)(0x52B2C4AC)
+I (..\..\..\..\..\..\Include\nrf51.h)(0x52B2C4AA)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512CE342)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BB1A44)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512CE342)
+I (..\..\..\..\..\..\Include\system_nrf51.h)(0x52B2C4AB)
+I (..\..\..\..\..\..\Include\app_common\app_error.h)(0x52B4787E)
+I (..\..\..\..\..\..\Include\nordic_common.h)(0x52B47884)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\string.h)(0x52FE975E)
+F (..\..\..\..\..\..\Source\ble\ble_advdata.c)(0x52B4786C)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\..\Include -I..\..\..\..\..\..\Include\app_common -I..\..\..\..\..\..\Include\ble -I..\..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\..\Include\s110 -I..\..\..\..\..\..\Include\sd_common -I..\..\..\..\..\..\Include\ext_sensors --c99-I C:\Development\BLE\MDK\ARM\RV31\INC-I C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Development\BLE\MDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DBOARD_PCA10001 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -o .\_build\ble_advdata.o --omf_browse .\_build\ble_advdata.crf --depend .\_build\ble_advdata.d)
+I (..\..\..\..\..\..\Include\ble\ble_advdata.h)(0x52B47882)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdint.h)(0x52FE975E)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdbool.h)(0x52FE975E)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\string.h)(0x52FE975E)
+I (..\..\..\..\..\..\Include\s110\ble.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_ranges.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_types.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_gap.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\nrf_svc.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_l2cap.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_err.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\nrf_error.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_gatt.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_gattc.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_gatts.h)(0x52809822)
+I (..\..\..\..\..\..\Include\app_common\app_util.h)(0x52B4787E)
+I (..\..\..\..\..\..\Include\compiler_abstraction.h)(0x52B2C4AC)
+I (..\..\..\..\..\..\Include\nrf51.h)(0x52B2C4AA)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512CE342)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BB1A44)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512CE342)
+I (..\..\..\..\..\..\Include\system_nrf51.h)(0x52B2C4AB)
+I (..\..\..\..\..\..\Include\app_common\app_error.h)(0x52B4787E)
+I (..\..\..\..\..\..\Include\nordic_common.h)(0x52B47884)
+I (..\..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x52B47880)
+F (..\..\..\..\..\..\Source\ble\ble_conn_params.c)(0x52B47852)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\..\Include -I..\..\..\..\..\..\Include\app_common -I..\..\..\..\..\..\Include\ble -I..\..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\..\Include\s110 -I..\..\..\..\..\..\Include\sd_common -I..\..\..\..\..\..\Include\ext_sensors --c99-I C:\Development\BLE\MDK\ARM\RV31\INC-I C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Development\BLE\MDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DBOARD_PCA10001 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -o .\_build\ble_conn_params.o --omf_browse .\_build\ble_conn_params.crf --depend .\_build\ble_conn_params.d)
+I (..\..\..\..\..\..\Include\ble\ble_conn_params.h)(0x52B47882)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdint.h)(0x52FE975E)
+I (..\..\..\..\..\..\Include\s110\ble.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_ranges.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_types.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_gap.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\nrf_svc.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_l2cap.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_err.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\nrf_error.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_gatt.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_gattc.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_gatts.h)(0x52809822)
+I (..\..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x52B47880)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdbool.h)(0x52FE975E)
+I (..\..\..\..\..\..\Include\app_common\app_util.h)(0x52B4787E)
+I (..\..\..\..\..\..\Include\compiler_abstraction.h)(0x52B2C4AC)
+I (..\..\..\..\..\..\Include\nrf51.h)(0x52B2C4AA)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512CE342)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BB1A44)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512CE342)
+I (..\..\..\..\..\..\Include\system_nrf51.h)(0x52B2C4AB)
+I (..\..\..\..\..\..\Include\app_common\app_error.h)(0x52B4787E)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdlib.h)(0x52FE975E)
+I (..\..\..\..\..\..\Include\nordic_common.h)(0x52B47884)
+I (..\..\..\..\..\..\Include\s110\ble_hci.h)(0x52809822)
+I (..\..\..\..\..\..\Include\app_common\app_timer.h)(0x52B4787E)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdio.h)(0x52FE975E)
+I (..\..\..\..\..\..\Include\app_common\app_scheduler.h)(0x52B4787E)
+F (..\..\..\..\..\..\Source\sd_common\softdevice_handler.c)(0x52B4787C)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\..\Include -I..\..\..\..\..\..\Include\app_common -I..\..\..\..\..\..\Include\ble -I..\..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\..\Include\s110 -I..\..\..\..\..\..\Include\sd_common -I..\..\..\..\..\..\Include\ext_sensors --c99-I C:\Development\BLE\MDK\ARM\RV31\INC-I C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Development\BLE\MDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DBOARD_PCA10001 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -o .\_build\softdevice_handler.o --omf_browse .\_build\softdevice_handler.crf --depend .\_build\softdevice_handler.d)
+I (..\..\..\..\..\..\Include\sd_common\softdevice_handler.h)(0x52B47884)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdlib.h)(0x52FE975E)
+I (..\..\..\..\..\..\Include\s110\nrf_sdm.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\nrf_svc.h)(0x52809822)
+I (..\..\..\..\..\..\Include\nrf51.h)(0x52B2C4AA)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512CE342)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdint.h)(0x52FE975E)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BB1A44)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512CE342)
+I (..\..\..\..\..\..\Include\system_nrf51.h)(0x52B2C4AB)
+I (..\..\..\..\..\..\Include\s110\nrf_soc.h)(0x52809822)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdbool.h)(0x52FE975E)
+I (..\..\..\..\..\..\Include\nrf51_bitfields.h)(0x52B2C4AA)
+I (..\..\..\..\..\..\Include\s110\nrf_error_soc.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\nrf_error.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\nrf_error_sdm.h)(0x52809822)
+I (..\..\..\..\..\..\Include\app_common\app_error.h)(0x52B4787E)
+I (..\..\..\..\..\..\Include\app_common\app_scheduler.h)(0x52B4787E)
+I (..\..\..\..\..\..\Include\app_common\app_util.h)(0x52B4787E)
+I (..\..\..\..\..\..\Include\compiler_abstraction.h)(0x52B2C4AC)
+I (..\..\..\..\..\..\Include\sd_common\ble_stack_handler_types.h)(0x52B47884)
+I (..\..\..\..\..\..\Include\s110\ble.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_ranges.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_types.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_gap.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_l2cap.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_err.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_gatt.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_gattc.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\ble_gatts.h)(0x52809822)
+I (..\..\..\..\..\..\Include\sd_common\ant_stack_handler_types.h)(0x52B47884)
+I (..\..\..\..\..\..\Include\nordic_common.h)(0x52B47884)
+I (..\..\..\..\..\..\Include\nrf_assert.h)(0x52B47880)
+F (..\..\..\..\..\..\Source\simple_uart\simple_uart.c)(0x531F7A8F)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\..\Include -I..\..\..\..\..\..\Include\app_common -I..\..\..\..\..\..\Include\ble -I..\..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\..\Include\s110 -I..\..\..\..\..\..\Include\sd_common -I..\..\..\..\..\..\Include\ext_sensors --c99-I C:\Development\BLE\MDK\ARM\RV31\INC-I C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Development\BLE\MDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DBOARD_PCA10001 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -o .\_build\simple_uart.o --omf_browse .\_build\simple_uart.crf --depend .\_build\simple_uart.d)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdint.h)(0x52FE975E)
+I (..\..\..\..\..\..\Include\nrf.h)(0x52B2C4AC)
+I (..\..\..\..\..\..\Include\nrf51.h)(0x52B2C4AA)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512CE342)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BB1A44)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512CE342)
+I (..\..\..\..\..\..\Include\system_nrf51.h)(0x52B2C4AB)
+I (..\..\..\..\..\..\Include\nrf51_bitfields.h)(0x52B2C4AA)
+I (..\..\..\..\..\..\Include\nrf51_deprecated.h)(0x52B2C4AC)
+I (..\..\..\..\..\..\Include\compiler_abstraction.h)(0x52B2C4AC)
+I (..\..\..\..\..\..\Include\simple_uart.h)(0x52B47882)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdbool.h)(0x52FE975E)
+I (..\..\..\..\..\..\Include\nrf_delay.h)(0x52B47880)
+I (..\..\..\..\..\..\Include\nrf_gpio.h)(0x52B47880)
+I (..\..\..\..\..\..\Include\ext_sensors\nrf6350.h)(0x52B47882)
+F (..\..\..\..\..\..\Source\app_common\app_timer.c)(0x52B47878)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\..\Include -I..\..\..\..\..\..\Include\app_common -I..\..\..\..\..\..\Include\ble -I..\..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\..\Include\s110 -I..\..\..\..\..\..\Include\sd_common -I..\..\..\..\..\..\Include\ext_sensors --c99-I C:\Development\BLE\MDK\ARM\RV31\INC-I C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Development\BLE\MDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DBOARD_PCA10001 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -o .\_build\app_timer.o --omf_browse .\_build\app_timer.crf --depend .\_build\app_timer.d)
+I (..\..\..\..\..\..\Include\app_common\app_timer.h)(0x52B4787E)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdint.h)(0x52FE975E)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdbool.h)(0x52FE975E)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdio.h)(0x52FE975E)
+I (..\..\..\..\..\..\Include\app_common\app_error.h)(0x52B4787E)
+I (..\..\..\..\..\..\Include\s110\nrf_error.h)(0x52809822)
+I (..\..\..\..\..\..\Include\app_common\app_util.h)(0x52B4787E)
+I (..\..\..\..\..\..\Include\compiler_abstraction.h)(0x52B2C4AC)
+I (..\..\..\..\..\..\Include\nrf51.h)(0x52B2C4AA)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512CE342)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BB1A44)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512CE342)
+I (..\..\..\..\..\..\Include\system_nrf51.h)(0x52B2C4AB)
+I (..\..\..\..\..\..\Include\app_common\app_scheduler.h)(0x52B4787E)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdlib.h)(0x52FE975E)
+I (..\..\..\..\..\..\Include\nrf51_bitfields.h)(0x52B2C4AA)
+I (..\..\..\..\..\..\Include\s110\nrf_soc.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\nrf_svc.h)(0x52809822)
+I (..\..\..\..\..\..\Include\s110\nrf_error_soc.h)(0x52809822)
+I (..\..\..\..\..\..\Include\nrf_delay.h)(0x52B47880)
+I (..\..\..\..\..\..\Include\nrf.h)(0x52B2C4AC)
+I (..\..\..\..\..\..\Include\nrf51_deprecated.h)(0x52B2C4AC)
+F (.\twi_hw_master.c)(0x531F8F86)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\..\Include -I..\..\..\..\..\..\Include\app_common -I..\..\..\..\..\..\Include\ble -I..\..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\..\Include\s110 -I..\..\..\..\..\..\Include\sd_common -I..\..\..\..\..\..\Include\ext_sensors --c99-I C:\Development\BLE\MDK\ARM\RV31\INC-I C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Development\BLE\MDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DBOARD_PCA10001 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -o .\_build\twi_hw_master.o --omf_browse .\_build\twi_hw_master.crf --depend .\_build\twi_hw_master.d)
+I (..\..\..\..\..\..\Include\twi_master.h)(0x52B47882)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdbool.h)(0x52FE975E)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdint.h)(0x52FE975E)
+I (twi_master_config.h)(0x52B478AF)
+I (..\..\..\..\..\..\Include\nrf.h)(0x52B2C4AC)
+I (..\..\..\..\..\..\Include\nrf51.h)(0x52B2C4AA)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512CE342)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BB1A44)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512CE342)
+I (..\..\..\..\..\..\Include\system_nrf51.h)(0x52B2C4AB)
+I (..\..\..\..\..\..\Include\nrf51_bitfields.h)(0x52B2C4AA)
+I (..\..\..\..\..\..\Include\nrf51_deprecated.h)(0x52B2C4AC)
+I (..\..\..\..\..\..\Include\compiler_abstraction.h)(0x52B2C4AC)
+I (..\..\..\..\..\..\Include\nrf_delay.h)(0x52B47880)
+I (..\..\..\..\..\..\Include\nrf_gpio.h)(0x52B47880)
+F (..\..\..\..\..\..\Source\ext_sensors\nRF6350\nRF6350.c)(0x52B4787B)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\..\Include -I..\..\..\..\..\..\Include\app_common -I..\..\..\..\..\..\Include\ble -I..\..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\..\Include\s110 -I..\..\..\..\..\..\Include\sd_common -I..\..\..\..\..\..\Include\ext_sensors --c99-I C:\Development\BLE\MDK\ARM\RV31\INC-I C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Development\BLE\MDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DBOARD_PCA10001 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -o .\_build\nrf6350.o --omf_browse .\_build\nrf6350.crf --depend .\_build\nrf6350.d)
+I (..\..\..\..\..\..\Include\ext_sensors\nrf6350.h)(0x52B47882)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdbool.h)(0x52FE975E)
+I (C:\Development\BLE\MDK\ARM\ARMCC\include\stdint.h)(0x52FE975E)
+I (..\..\..\..\..\..\Include\nrf_delay.h)(0x52B47880)
+I (..\..\..\..\..\..\Include\nrf.h)(0x52B2C4AC)
+I (..\..\..\..\..\..\Include\nrf51.h)(0x52B2C4AA)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512CE342)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BB1A44)
+I (C:\Development\BLE\MDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512CE342)
+I (..\..\..\..\..\..\Include\system_nrf51.h)(0x52B2C4AB)
+I (..\..\..\..\..\..\Include\nrf51_bitfields.h)(0x52B2C4AA)
+I (..\..\..\..\..\..\Include\nrf51_deprecated.h)(0x52B2C4AC)
+I (..\..\..\..\..\..\Include\compiler_abstraction.h)(0x52B2C4AC)
+I (..\..\..\..\..\..\Include\twi_master.h)(0x52B47882)

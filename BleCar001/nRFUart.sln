@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nRFUart", "nRFUart.csproj", "{E3F27529-5882-4B42-B02D-8FA05293611E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3F27529-5882-4B42-B02D-8FA05293611E}.Debug|x86.ActiveCfg = Debug|x86
+		{E3F27529-5882-4B42-B02D-8FA05293611E}.Debug|x86.Build.0 = Debug|x86
+		{E3F27529-5882-4B42-B02D-8FA05293611E}.Release|x86.ActiveCfg = Release|x86
+		{E3F27529-5882-4B42-B02D-8FA05293611E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

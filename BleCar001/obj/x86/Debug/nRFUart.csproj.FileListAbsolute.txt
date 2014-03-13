@@ -1,0 +1,51 @@
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\bin\Debug\nRFUart.exe.config
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\bin\Debug\nRFUart.exe
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\bin\Debug\nRFUart.pdb
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\bin\Debug\Ulpbt.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\bin\Debug\Microsoft.Scripting.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\bin\Debug\IronPython.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\bin\Debug\hci_coder_net.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\bin\Debug\Signalyzer.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\bin\Debug\Segger.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\bin\Debug\UlpbtUtils.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\bin\Debug\Microsoft.Dynamic.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\bin\Debug\MasterEmulator.xml
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\obj\x86\Debug\nRFUart.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\obj\x86\Debug\About.baml
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\obj\x86\Debug\About.g.cs
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\obj\x86\Debug\MainWindow.g.cs
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\obj\x86\Debug\App.g.cs
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\obj\x86\Debug\nRFUart_MarkupCompile.cache
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\obj\x86\Debug\nRFUart_MarkupCompile.lref
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\obj\x86\Debug\MainWindow.baml
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\obj\x86\Debug\nRFUart.g.resources
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\obj\x86\Debug\nRFUart.Properties.Resources.resources
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\obj\x86\Debug\nRFUart.csproj.GenerateResource.Cache
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\obj\x86\Debug\nRFUart.exe
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.7.8226\Example code\nRFUart\obj\x86\Debug\nRFUart.pdb
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\bin\Debug\nRFUart.exe.config
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\obj\x86\Debug\nRFUart.exe
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\obj\x86\Debug\nRFUart.pdb
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\bin\Debug\nRFUart.exe
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\bin\Debug\nRFUart.pdb
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\obj\x86\Debug\About.baml
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\obj\x86\Debug\About.g.cs
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\obj\x86\Debug\MainWindow.g.cs
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\obj\x86\Debug\App.g.cs
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\obj\x86\Debug\nRFUart_MarkupCompile.cache
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\obj\x86\Debug\nRFUart_MarkupCompile.lref
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\obj\x86\Debug\MainWindow.baml
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\obj\x86\Debug\nRFUart.g.resources
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\obj\x86\Debug\nRFUart.Properties.Resources.resources
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\obj\x86\Debug\nRFUart.csproj.GenerateResource.Cache
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\obj\x86\Debug\nRFUart.csprojResolveAssemblyReference.cache
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\bin\Debug\Ulpbt.dll
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\bin\Debug\Microsoft.Scripting.dll
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\bin\Debug\IronPython.dll
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\bin\Debug\hci_coder_net.dll
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\bin\Debug\Signalyzer.dll
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\bin\Debug\Segger.dll
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\bin\Debug\UlpbtUtils.dll
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\bin\Debug\Microsoft.Dynamic.dll
+C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\BleCar001\bin\Debug\Microsoft.Scripting.Metadata.dll

@@ -1,0 +1,78 @@
+﻿<Window x:Class="nRFUart.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:nRFUart"
+        Title="nRF UART" 
+         Height="607.463"
+         Width="870.149"
+         Background="LightGray" 
+        Icon="/nRFUart;component/Images/nordic_95black.ico" MinWidth="500" MinHeight="500">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_File">
+                <MenuItem Header="_Log file..." Click="OnMenuItemLogfileClick" />
+                <Separator />
+                <MenuItem Header="_Exit" Click="OnMenuItemExitClick"/>
+            </MenuItem>
+            <MenuItem Header="_Help">
+                <MenuItem Header="_About" Click="OnMenuItemAboutClick" />
+            </MenuItem>
+        </Menu>
+
+        <Button DockPanel.Dock="Top" Margin="5,10,5,0" Content="Connect" Name="btnConnect" Click="OnBtnConnectClick"/>
+        <DockPanel DockPanel.Dock="Top" Margin="5,0,5,0">
+            <CheckBox DockPanel.Dock="Right" Name="cbDebug" Checked="OnCbDebugChecked" Unchecked="OnCbDebugChecked" VerticalAlignment="Center">Debug</CheckBox>
+            <Label>Console</Label>
+        </DockPanel>
+
+        <Grid DockPanel.Dock="Bottom" Name="gpSendStopControls">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Grid.Row="0" Grid.Column="1" Margin="5,0,5,5" Content="Stop data transfer" Click="OnBtnStopData" Name="btnStopData" IsEnabled="False" />
+
+        </Grid>
+
+        <DockPanel DockPanel.Dock="Bottom" Name="dpSendControls">
+            <Button DockPanel.Dock="Right" HorizontalAlignment="Right" Margin="5" Name="btnSend" Content="Send text" Click="OnBtnSendClick"/>
+            <TextBox Margin="5" Name="tbInput" KeyDown="OnTbInputKeyDown" />
+        </DockPanel>
+        <ListBox ItemsSource="{Binding Path=OutputText}" Margin="5,0" Name="lbOutput" FontFamily="Consolas" FontSize="12" SelectionMode="Extended">
+            <ListBox.InputBindings>
+                <KeyBinding Key="C" 
+                            Modifiers="Ctrl" 
+                            Command="Copy"
+                            CommandParameter="{Binding Path=OutputText}">
+                </KeyBinding>
+                <KeyBinding Key="A" 
+                            Modifiers="Ctrl" 
+                            Command="SelectAll"
+                            CommandParameter="{Binding Path=OutputText}">
+                </KeyBinding>
+                <KeyBinding Key="Del"
+                            Command="Delete"
+                            CommandParameter="{Binding Path=OutputText}">
+                </KeyBinding>
+            </ListBox.InputBindings>
+
+            <ListBox.CommandBindings>
+                <CommandBinding Command="Copy" Executed="CopyExecuted" CanExecute="CanExecuteCopy" />
+                <CommandBinding Command="Delete" Executed="DeleteAllExecuted" CanExecute="CanExecuteDeleteAll" />
+                <CommandBinding Command="SelectAll" Executed="SelectAllExecuted" CanExecute="CanExecuteSelectAll" />
+            </ListBox.CommandBindings>
+
+            <ListBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="_Select all" Command="SelectAll" CommandParameter="{Binding}"/>
+                    <MenuItem Header="_Copy" Command="Copy" CommandParameter="{Binding}"/>
+                    <MenuItem Header="_Delete all" Command="Delete" CommandParameter="{Binding}"/>
+                </ContextMenu>
+            </ListBox.ContextMenu>
+        </ListBox>
+    </DockPanel>
+</Window>

@@ -1,0 +1,1 @@
+In order to run nRFUart application, all MasterEmulator DLLs must be located in the same folder as the nRFUart.exe binary.
