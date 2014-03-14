@@ -46,8 +46,11 @@
 .\_build\main.o: ..\ble_nus.h
 .\_build\main.o: ..\..\..\..\..\..\Include\simple_uart.h
 .\_build\main.o: ..\..\..\..\..\..\Include\boards.h
-.\_build\main.o: ..\..\..\..\..\..\Include\boards/pca10001.h
+.\_build\main.o: ..\..\..\..\..\..\Include\boards/nrf6310.h
 .\_build\main.o: ..\..\..\..\..\..\Include\ble\ble_error_log.h
 .\_build\main.o: ..\..\..\..\..\..\Include\ble\ble_flash.h
 .\_build\main.o: ..\..\..\..\..\..\Include\ble\ble_debug_assert_handler.h
 .\_build\main.o: ..\..\..\..\..\..\Include\ext_sensors\nrf6350.h
+.\_build\main.o: ..\arm\ble_pwm.h
+.\_build\main.o: ..\..\..\..\..\..\Include\nrf_delay.h
+.\_build\main.o: ..\..\..\..\..\..\Include\nrf_gpiote.h

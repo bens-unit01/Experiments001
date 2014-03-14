@@ -1,4 +1,4 @@
-.\_build\nrf6350.o: ..\..\..\..\..\..\Source\ext_sensors\nRF6350\nRF6350.c
+.\_build\nrf6350.o: nRF6350.c
 .\_build\nrf6350.o: ..\..\..\..\..\..\Include\ext_sensors\nrf6350.h
 .\_build\nrf6350.o: C:\Development\BLE\MDK\ARM\ARMCC\bin\..\include\stdbool.h
 .\_build\nrf6350.o: C:\Development\BLE\MDK\ARM\ARMCC\bin\..\include\stdint.h

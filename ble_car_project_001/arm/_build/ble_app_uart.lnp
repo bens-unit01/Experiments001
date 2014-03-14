@@ -9,9 +9,8 @@
 ".\_build\softdevice_handler.o"
 ".\_build\simple_uart.o"
 ".\_build\app_timer.o"
-".\_build\nrf6350.o"
 ".\_build\twi_hw_master.o"
-".\_build\ble_pwm.o"
+".\_build\nrf6350.o"
 --strict --scatter ".\_build\ble_app_uart.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

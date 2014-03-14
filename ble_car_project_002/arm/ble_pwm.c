@@ -12,11 +12,11 @@
 
 
 
-#define TIMER_PRESCALER       (4)       /**< Prescaler setting for timers. */
-#define LED_INTENSITY_HIGH    (250U)    /**< High intensity. */
-#define LED_INTENSITY_LOW     (32U)     /**< Low intensity. */
+#define TIMER_PRESCALER       (2)       /**< Prescaler setting for timers. */
+#define LED_INTENSITY_HIGH    (126U)    /**< High intensity. */
+#define LED_INTENSITY_LOW     (10U)     /**< Low intensity. */
 #define LED_OFF               (1U)      /**< Led off. */
-#define LED_INTENSITY_HALF    (128U)    /**< Half intensity. Used to calculate timer parameters. */
+#define LED_INTENSITY_HALF    (63U)    /**< Half intensity. Used to calculate timer parameters. */
 
 static uint8_t pwm = LED_INTENSITY_LOW;
 /** @brief Function for setting the PWM duty cycle.

@@ -15,5 +15,5 @@
 .\_build\ble_pwm.o: ..\..\..\..\..\..\Include\nrf_gpio.h
 .\_build\ble_pwm.o: ..\..\..\..\..\..\Include\nrf_gpiote.h
 .\_build\ble_pwm.o: ..\..\..\..\..\..\Include\boards.h
-.\_build\ble_pwm.o: ..\..\..\..\..\..\Include\boards/pca10001.h
+.\_build\ble_pwm.o: ..\..\..\..\..\..\Include\boards/nrf6310.h
 .\_build\ble_pwm.o: ble_pwm.h

@@ -4,22 +4,19 @@
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
 C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\ble_car_project_002\arm\ble_app_uart.uvproj
-Project File Date:  03/11/2014
+Project File Date:  03/14/2014
 
 <h2>Output:</h2>
 Build target 'nrf51822_xxaa_s110 (256K)'
 compiling main.c...
-..\main.c(544): warning:  #185-D: dynamic initialization in unreachable code
-                int  i = 0;
-..\main.c(544): warning:  #177-D: variable "i" was declared but never referenced
-                int  i = 0;
-..\main.c(462): warning:  #177-D: function "power_manage" was declared but never referenced
-  static void power_manage(void)
-..\main.c: 3 warnings, 0 errors
+..\main.c(476): warning:  #177-D: function "uart_init" was declared but never referenced
+  static void uart_init(void)
+..\main.c: 1 warning, 0 errors
+compiling ble_pwm.c...
 linking...
-Program Size: Code=11064 RO-data=244 RW-data=124 ZI-data=4972  
+Program Size: Code=12024 RO-data=244 RW-data=120 ZI-data=4952  
 FromELF: creating hex file...
-".\_build\ble_app_uart.axf" - 0 Error(s), 3 Warning(s).
+".\_build\ble_app_uart.axf" - 0 Error(s), 1 Warning(s).
 Load "C:\\Development\\BLE\\nrf51_sdk\\nrf51822\\Board\\pca10001\\s110\\experimental\\ble_car_project_002\\arm\\_build\\ble_app_uart.axf" 
 Set JLink Project File to "C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\ble_car_project_002\arm\JLinkSettings.ini"
 * JLink Info: Device "NRF51822_XXAA" selected (257 KB flash, 16 KB RAM).
@@ -52,30 +49,10 @@ Erase Done.
 Programming Done.
 Verify OK.
 Application running ...
-rf51_sdk\\nrf51822\\Board\\pca10001\\s110\\experimental\\ble_car_project_002\\arm\\_build\\ble_app_uart.axf" 
-Set JLink Project File to "C:\Development\BLE\nrf51_sdk\nrf51822\Board\pca10001\s110\experimental\ble_car_project_002\arm\JLinkSettings.ini"
-* JLink Info: Device "NRF51822_XXAA" selected (257 KB flash, 16 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.80g, compiled Feb 13 2014 20:50:02
-Firmware: J-Link Lite-Cortex-M V8 compiled Aug 29 2012 15:24:23
-Hardware: V8.00
-S/N : 518006017 
-Feature(s) : GDB 
- 
-* JLink Info: Found SWD-DP with ID 0x0BB11477
-* JLink Info: Found Cortex-M0 r0p0, Little endian.
-* JLink Info: FPUnit: 4 code (BP) slots and 0 literal slots
-ROMTableAddr = 0xE00FF003
- 
-Target info:
-------------
-Device: nRF51822_xxAA
-VTarget = 3.293V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 1, TMS: 1, TRES: 1, TRST: 1
-Hardware-Breakpoints: 4
+</pre>
+</body>
+</html>
+ts: 4
 Software-Breakpoints: 8192
 Watchpoints:          2
 JTAG speed: 2000 kHz
@@ -84,5 +61,10 @@ Erase Done.
 Programming Done.
 Verify OK.
 Application running ...
-K.
+          2
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
 Application running ...

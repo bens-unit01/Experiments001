@@ -38,13 +38,13 @@
 #include "ble_error_log.h"
 #include "ble_debug_assert_handler.h"
 #include "nrf6350.h"
-#include "ble_pwm.h"
+
 
 #define MAX_CHARACTERS_PER_LINE           (16UL)  
 #define WAKEUP_BUTTON_PIN               BUTTON_0                                    /**< Button used to wake up the application. */
 
-#define ADVERTISING_LED_PIN_NO          LED_1                                       /**< LED to indicate advertising state. */
-#define CONNECTED_LED_PIN_NO            LED_0                                       /**< LED to indicate connected state. */
+#define ADVERTISING_LED_PIN_NO          LED_0                                      /**< LED to indicate advertising state. */
+#define CONNECTED_LED_PIN_NO            LED_1                                  /**< LED to indicate connected state. */
 
 #define DEVICE_NAME                     "Nordic_UART"                               /**< Name of device. Will be included in the advertising data. */
 
@@ -73,7 +73,6 @@
 #define SEC_PARAM_MIN_KEY_SIZE          7                                           /**< Minimum encryption key size. */
 #define SEC_PARAM_MAX_KEY_SIZE          16                                          /**< Maximum encryption key size. */
 
-#define START_STRING                    "Start...\n"                                /**< The string that will be sent over the UART when the application starts. */
 
 #define DEAD_BEEF                       0xDEADBEEF                                  /**< Value used as error code on stack dump, can be used to identify stack location on stack unwind. */
 
@@ -81,12 +80,6 @@ static ble_gap_sec_params_t             m_sec_params;                           
 static uint16_t                         m_conn_handle = BLE_CONN_HANDLE_INVALID;    /**< Handle of the current connection. */
 static ble_nus_t                        m_nus;                                      /**< Structure to identify the Nordic UART Service. */
 
- static void writeLog(uint32_t val){
-                    char str[MAX_CHARACTERS_PER_LINE];
-                    snprintf(str, sizeof str, "%lu", (unsigned long)val);
-                    nrf6350_lcd_write_string(str, MAX_CHARACTERS_PER_LINE, LCD_UPPER_LINE, 0);
-                
-}
 
 /**@brief     Error handler function, which is called when an error has occurred.
  *
@@ -219,14 +212,16 @@ static void advertising_init(void)
 /**@snippet [Handling the data received over BLE] */
 void nus_data_handler(ble_nus_t * p_nus, uint8_t * p_data, uint16_t length)
 {
-   /* for (int i = 0; i < length; i++)
+	
+    for (int i = 0; i < length; i++)
     {
-        simple_uart_put(p_data[i]);
+      //  simple_uart_put(p_data[i]);
     }
-	*/
-		writeLog(p_data[length-1]);
-	//	 pwm_set(p_data[length-1]);
-   // simple_uart_put('\n');
+	
+		//char str[MAX_CHARACTERS_PER_LINE];
+   //snprintf(str, sizeof str, "%lu", (unsigned long)p_data[length-1]);
+		 nrf6350_lcd_write_string(" test01 ", MAX_CHARACTERS_PER_LINE, LCD_UPPER_LINE, 0);
+   
 }
 /**@snippet [Handling the data received over BLE] */
 
@@ -470,51 +465,6 @@ static void power_manage(void)
 }
 
 
-/**@brief  Function for initializing the UART module.
- */
-static void uart_init(void)
-{
-    /**@snippet [UART Initialization] */
-    simple_uart_config(RTS_PIN_NUMBER, TX_PIN_NUMBER, CTS_PIN_NUMBER, RX_PIN_NUMBER, HWFC);
-    
-    NRF_UART0->INTENSET = UART_INTENSET_RXDRDY_Enabled << UART_INTENSET_RXDRDY_Pos;
-    
-    NVIC_SetPriority(UART0_IRQn, APP_IRQ_PRIORITY_LOW);
-    NVIC_EnableIRQ(UART0_IRQn);
-    /**@snippet [UART Initialization] */
-}
-
-
-/**@brief   Function for handling UART interrupts.
- *
- * @details This function will receive a single character from the UART and append it to a string.
- *          The string will be be sent over BLE when the last character received was a 'new line'
- *          i.e '\n' (hex 0x0D) or if the string has reached a length of @ref NUS_MAX_DATA_LENGTH.
- */
-void UART0_IRQHandler(void)
-{
-    static uint8_t data_array[BLE_NUS_MAX_DATA_LEN];
-    static uint8_t index = 0;
-    uint32_t err_code;
-
-    /**@snippet [Handling the data received over UART] */
-
-    data_array[index] = simple_uart_get();
-    index++;
-
-    if ((data_array[index - 1] == '\n') || (index >= (BLE_NUS_MAX_DATA_LEN - 1)))
-    {
-        err_code = ble_nus_send_string(&m_nus, data_array, index + 1);
-        if (err_code != NRF_ERROR_INVALID_STATE)
-        {
-            APP_ERROR_CHECK(err_code);
-        }
-        
-        index = 0;
-    }
-
-    /**@snippet [Handling the data received over UART] */
-}
 
 
 
@@ -526,46 +476,25 @@ int main(void)
     leds_init();
     timers_init();
     buttons_init();
-  //  uart_init();
     ble_stack_init();
     gap_params_init();
     services_init();
     advertising_init();
     conn_params_init();
     sec_params_init();
-  
-// ppi setup 
-
-	//  pwm_init(LED_0);
-	
-	// init timer 
-		sd_ppi_channel_assign(0, &NRF_TIMER2->EVENTS_COMPARE[0], &NRF_GPIOTE->TASKS_OUT[0]);
-	  sd_ppi_channel_assign(1, &NRF_TIMER2->EVENTS_COMPARE[1], &NRF_GPIOTE->TASKS_OUT[0]);
-	  sd_ppi_channel_enable_set(	(PPI_CHEN_CH0_Enabled << PPI_CHEN_CH0_Pos) |
-                          (PPI_CHEN_CH1_Enabled << PPI_CHEN_CH1_Pos));
-													
-  // init channel for LCD display 
 	  nrf6350_lcd_init(); 
-		sd_ppi_channel_assign(2, &NRF_TWI1->EVENTS_BB, &NRF_TWI1->TASKS_SUSPEND);
-	  // NRF_PPI->CH[15].EEP        = (uint32_t)&NRF_TWI1->EVENTS_BB;
-   // NRF_PPI->CH[15].TEP        = (uint32_t)&NRF_TWI1->TASKS_SUSPEND;
-   // NRF_PPI->CHENCLR          = PPI_CHENCLR_CH15_Msk;
 	 
-	 
-  //   simple_uart_putstring(START_STRING);
-    /*
-	          debug
-	  */
-	   writeLog(44);
-	
-	 
-    advertising_start();
+	    nrf6350_lcd_write_string("Ok a ", MAX_CHARACTERS_PER_LINE, LCD_UPPER_LINE, 0);
     
+    advertising_start();
+     nrf6350_lcd_write_string("Ok b ", MAX_CHARACTERS_PER_LINE, LCD_UPPER_LINE, 0);
     // Enter main loop
-    for (;;)
+    while(true)
     {
         power_manage();
     }
+		
+
 }
 
 /** 
